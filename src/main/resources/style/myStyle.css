@@ -1,0 +1,37 @@
+*{
+    primary:#2a2e37;
+    secondary:rgba(255,254,145,0.27);
+    primaryText:#b2b2b2;
+    button-background-color:#000000;
+}
+.root{
+    -fx-background-color: primary;
+}
+.button{
+    -fx-text-fill: primaryText;
+    -fx-border-color: secondary;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.button:hover{
+    -fx-background-color: button-background-color;
+}
+.text-field{
+    -fx-text-fill: primaryText;
+}
+.glyph-icon{
+    -fx-fill: primaryText;
+}
+
+.label{
+    -fx-text-fill: primaryText;
+}
+.text-area .content{
+    -fx-background-color: primary;
+}
+.text-area{
+    -fx-text-fill: primaryText;
+}
+.tab-pane .content{
+    -fx-background-color: primary;
+}

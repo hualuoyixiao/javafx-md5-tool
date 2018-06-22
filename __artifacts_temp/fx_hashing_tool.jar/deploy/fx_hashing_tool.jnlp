@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="fx_hashing_tool.jnlp">
+  <information>
+    <title>MD5计算工具</title>
+    <vendor>Unknown</vendor>
+    <description>MD5计算工具</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="deploy/deploy/deploy/deploy/deploy/deploy/deploy/fx_hashing_tool.jar" size="4601" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/deploy/deploy/deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/deploy/deploy/fx_hashing_tool.jar" size="5917" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/deploy/deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/deploy/fx_hashing_tool.jar" size="5948" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/fx_hashing_tool.jar" size="6524" download="eager" />
+    <jar href="deploy/deploy/deploy/deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="deploy/deploy/deploy/fx_hashing_tool.jar" size="6543" download="eager" />
+    <jar href="deploy/deploy/deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="deploy/deploy/fx_hashing_tool.jar" size="6563" download="eager" />
+    <jar href="deploy/deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="deploy/fx_hashing_tool.jar" size="6579" download="eager" />
+    <jar href="deploy/guava-20.0.jar" size="2442625" download="eager" />
+    <jar href="fx_hashing_tool.jar" size="6606" download="eager" />
+    <jar href="guava-20.0.jar" size="2442625" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="com.linchaokun.fxhashing.FxHashingApplication"  name="MD5计算工具" />
+  <update check="background"/>
+</jnlp>
